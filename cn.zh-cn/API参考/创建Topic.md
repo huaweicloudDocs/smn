@@ -41,7 +41,7 @@
     <td class="cellrowborder" valign="top" width="24.83%" headers="mcps1.1.5.1.3 "><p id="p60892144184157"><a name="p60892144184157"></a><a name="p60892144184157"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="40.8%" headers="mcps1.1.5.1.4 "><p id="p59334239154910"><a name="p59334239154910"></a><a name="p59334239154910"></a>项目ID</p>
-    <p id="p33316626184157"><a name="p33316626184157"></a><a name="p33316626184157"></a>获取项目ID请参考<a href="获取项目编号.md">获取项目编号</a>。</p>
+    <p id="p33316626184157"><a name="p33316626184157"></a><a name="p33316626184157"></a>获取项目ID请参考<a href="获取项目ID.md">获取项目ID</a>。</p>
     </td>
     </tr>
     </tbody>
