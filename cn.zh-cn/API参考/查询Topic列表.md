@@ -39,7 +39,7 @@
     <td class="cellrowborder" valign="top" width="22.650000000000002%" headers="mcps1.1.5.1.3 "><p id="p17679057"><a name="p17679057"></a><a name="p17679057"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="27.35%" headers="mcps1.1.5.1.4 "><p id="p12240680154940"><a name="p12240680154940"></a><a name="p12240680154940"></a>项目ID</p>
-    <p id="p22717550"><a name="p22717550"></a><a name="p22717550"></a>获取项目ID请参考<a href="获取项目编号.md">获取项目编号</a>。</p>
+    <p id="p22717550"><a name="p22717550"></a><a name="p22717550"></a>获取项目ID请参考<a href="获取项目ID.md">获取项目ID</a>。</p>
     </td>
     </tr>
     <tr id="row52313669"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.1 "><p id="p9548790"><a name="p9548790"></a><a name="p9548790"></a>offset</p>

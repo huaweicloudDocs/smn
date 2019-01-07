@@ -37,7 +37,7 @@
     <td class="cellrowborder" valign="top" width="23%" headers="mcps1.1.5.1.3 "><p id="p12611713812"><a name="p12611713812"></a><a name="p12611713812"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="39%" headers="mcps1.1.5.1.4 "><p id="p695233216116"><a name="p695233216116"></a><a name="p695233216116"></a>待查询版本号。</p>
-    <div class="note" id="note6856165481210"><a name="note6856165481210"></a><a name="note6856165481210"></a><span class="notetitle"> NOTE: </span><div class="notebody"><p id="p8856145451214"><a name="p8856145451214"></a><a name="p8856145451214"></a>目前仅支持v2。</p>
+    <div class="note" id="note6856165481210"><a name="note6856165481210"></a><a name="note6856165481210"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p8856145451214"><a name="p8856145451214"></a><a name="p8856145451214"></a>目前仅支持v2。</p>
     </div></div>
     </td>
     </tr>
