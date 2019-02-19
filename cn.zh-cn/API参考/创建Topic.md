@@ -70,7 +70,7 @@
     <td class="cellrowborder" valign="top" width="22.377762223777623%" headers="mcps1.1.5.1.3 "><p id="p44473009184157"><a name="p44473009184157"></a><a name="p44473009184157"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="32.61673832616738%" headers="mcps1.1.5.1.4 "><p id="p45543947184157"><a name="p45543947184157"></a><a name="p45543947184157"></a>创建topic的名字。</p>
-    <p id="p979550192113"><a name="p979550192113"></a><a name="p979550192113"></a>主题名称只能包含大写字母、小写字母、数字、-和_，且必须由大写字母、小写字母或数字开头，长度为1到256个字符。</p>
+    <p id="p979550192113"><a name="p979550192113"></a><a name="p979550192113"></a>主题名称只能包含大写字母、小写字母、数字、-和_，且必须由大写字母、小写字母或数字开头，长度为1到255个字符。</p>
     </td>
     </tr>
     <tr id="row49758753184157"><td class="cellrowborder" valign="top" width="21.10788921107889%" headers="mcps1.1.5.1.1 "><p id="p3927189184157"><a name="p3927189184157"></a><a name="p3927189184157"></a>display_name</p>
