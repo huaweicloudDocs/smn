@@ -20,21 +20,21 @@
 -   参数说明
 
     <a name="table1952532171110"></a>
-    <table><thead align="left"><tr id="row12952113251110"><th class="cellrowborder" valign="top" width="22%" id="mcps1.1.5.1.1"><p id="p13952193220115"><a name="p13952193220115"></a><a name="p13952193220115"></a>名称</p>
+    <table><thead align="left"><tr id="row12952113251110"><th class="cellrowborder" valign="top" width="21.58%" id="mcps1.1.5.1.1"><p id="p13952193220115"><a name="p13952193220115"></a><a name="p13952193220115"></a>名称</p>
     </th>
-    <th class="cellrowborder" valign="top" width="16%" id="mcps1.1.5.1.2"><p id="p18427194911117"><a name="p18427194911117"></a><a name="p18427194911117"></a>是否必选</p>
+    <th class="cellrowborder" valign="top" width="20.630000000000003%" id="mcps1.1.5.1.2"><p id="p18427194911117"><a name="p18427194911117"></a><a name="p18427194911117"></a>是否必选</p>
     </th>
-    <th class="cellrowborder" valign="top" width="23%" id="mcps1.1.5.1.3"><p id="p122611473812"><a name="p122611473812"></a><a name="p122611473812"></a>参数类型</p>
+    <th class="cellrowborder" valign="top" width="18.790000000000003%" id="mcps1.1.5.1.3"><p id="p122611473812"><a name="p122611473812"></a><a name="p122611473812"></a>参数类型</p>
     </th>
     <th class="cellrowborder" valign="top" width="39%" id="mcps1.1.5.1.4"><p id="p795243271111"><a name="p795243271111"></a><a name="p795243271111"></a>说明</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row1095203271110"><td class="cellrowborder" valign="top" width="22%" headers="mcps1.1.5.1.1 "><p id="p1395203213111"><a name="p1395203213111"></a><a name="p1395203213111"></a>api_version</p>
+    <tbody><tr id="row1095203271110"><td class="cellrowborder" valign="top" width="21.58%" headers="mcps1.1.5.1.1 "><p id="p1395203213111"><a name="p1395203213111"></a><a name="p1395203213111"></a>api_version</p>
     </td>
-    <td class="cellrowborder" valign="top" width="16%" headers="mcps1.1.5.1.2 "><p id="p3427164911115"><a name="p3427164911115"></a><a name="p3427164911115"></a>是</p>
+    <td class="cellrowborder" valign="top" width="20.630000000000003%" headers="mcps1.1.5.1.2 "><p id="p3427164911115"><a name="p3427164911115"></a><a name="p3427164911115"></a>是</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23%" headers="mcps1.1.5.1.3 "><p id="p12611713812"><a name="p12611713812"></a><a name="p12611713812"></a>String</p>
+    <td class="cellrowborder" valign="top" width="18.790000000000003%" headers="mcps1.1.5.1.3 "><p id="p12611713812"><a name="p12611713812"></a><a name="p12611713812"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="39%" headers="mcps1.1.5.1.4 "><p id="p695233216116"><a name="p695233216116"></a><a name="p695233216116"></a>待查询版本号。</p>
     <div class="note" id="note6856165481210"><a name="note6856165481210"></a><a name="note6856165481210"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p8856145451214"><a name="p8856145451214"></a><a name="p8856145451214"></a>目前仅支持v2。</p>
@@ -45,16 +45,16 @@
     </table>
 
 
-## 请求<a name="zh-cn_topic_0118694332_section63743225"></a>
+## 请求消息<a name="zh-cn_topic_0118694332_section63743225"></a>
 
 -   请求样例
 
     ```
-    GET /v2
+    GET https://{SMN_Endpoint}/v2
     ```
 
 
-## 响应<a name="zh-cn_topic_0118694332_section36818119"></a>
+## 响应消息<a name="zh-cn_topic_0118694332_section36818119"></a>
 
 -   要素说明
 
@@ -99,16 +99,16 @@
     </tr>
     <tr id="row1766313211514"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p1390725544917"><a name="p1390725544917"></a><a name="p1390725544917"></a>links</p>
     </td>
-    <td class="cellrowborder" valign="top" width="28.000000000000004%" headers="mcps1.2.4.1.2 "><p id="p13515150155715"><a name="p13515150155715"></a><a name="p13515150155715"></a>Links结构体数组，结构体说明请参见<a href="Links结构体.md">Links结构体</a>。</p>
+    <td class="cellrowborder" valign="top" width="28.000000000000004%" headers="mcps1.2.4.1.2 "><p id="p13515150155715"><a name="p13515150155715"></a><a name="p13515150155715"></a>Links结构体数组</p>
     </td>
-    <td class="cellrowborder" valign="top" width="52%" headers="mcps1.2.4.1.3 "><p id="p1785191514575"><a name="p1785191514575"></a><a name="p1785191514575"></a>API的URL地址</p>
+    <td class="cellrowborder" valign="top" width="52%" headers="mcps1.2.4.1.3 "><p id="p1785191514575"><a name="p1785191514575"></a><a name="p1785191514575"></a>API的URL地址，结构体说明请参见<a href="#table864210364409">表3</a>。</p>
     </td>
     </tr>
     <tr id="row826819249365"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0118694332_p9543622"><a name="zh-cn_topic_0118694332_p9543622"></a><a name="zh-cn_topic_0118694332_p9543622"></a>min_version</p>
     </td>
     <td class="cellrowborder" valign="top" width="28.000000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0118694332_p34835893"><a name="zh-cn_topic_0118694332_p34835893"></a><a name="zh-cn_topic_0118694332_p34835893"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="52%" headers="mcps1.2.4.1.3 "><p id="p7948334354"><a name="p7948334354"></a><a name="p7948334354"></a>若该版本API支持微版本，则填支持的最小微版本号；若不支持微版本，则填空。</p>
+    <td class="cellrowborder" valign="top" width="52%" headers="mcps1.2.4.1.3 "><p id="p7948334354"><a name="p7948334354"></a><a name="p7948334354"></a>若该版本API支持微版本，则返回支持的最小微版本号；若不支持微版本，则返回空。</p>
     </td>
     </tr>
     <tr id="row972024243711"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p2069817541346"><a name="p2069817541346"></a><a name="p2069817541346"></a>status</p>
@@ -123,14 +123,42 @@
     </td>
     <td class="cellrowborder" valign="top" width="28.000000000000004%" headers="mcps1.2.4.1.2 "><p id="p99021268355"><a name="p99021268355"></a><a name="p99021268355"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="52%" headers="mcps1.2.4.1.3 "><p id="p590215614356"><a name="p590215614356"></a><a name="p590215614356"></a>版本发布时间，要求用UTC时间表示。如v2发布的时间2014-06-28T12:20:21Z。</p>
+    <td class="cellrowborder" valign="top" width="52%" headers="mcps1.2.4.1.3 "><p id="p590215614356"><a name="p590215614356"></a><a name="p590215614356"></a>版本发布时间，要求用UTC时间格式表示。如v2发布的时间2014-06-28T12:20:21Z。</p>
     </td>
     </tr>
     <tr id="row17393526173617"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p29120166354"><a name="p29120166354"></a><a name="p29120166354"></a>version</p>
     </td>
     <td class="cellrowborder" valign="top" width="28.000000000000004%" headers="mcps1.2.4.1.2 "><p id="p691191611356"><a name="p691191611356"></a><a name="p691191611356"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="52%" headers="mcps1.2.4.1.3 "><p id="p209171618355"><a name="p209171618355"></a><a name="p209171618355"></a>若该版本API支持微版本，则填支持的最大微版本号；若不支持微版本，则填空。</p>
+    <td class="cellrowborder" valign="top" width="52%" headers="mcps1.2.4.1.3 "><p id="p209171618355"><a name="p209171618355"></a><a name="p209171618355"></a>若该版本API支持微版本，则返回支持的最大微版本号；若不支持微版本，则返回空。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+    **表 3**  Links结构体
+
+    <a name="table864210364409"></a>
+    <table><thead align="left"><tr id="zh-cn_topic_0133216132_row159118012401"><th class="cellrowborder" valign="top" width="22.772277227722775%" id="mcps1.2.4.1.1"><p id="zh-cn_topic_0133216132_p115911807403"><a name="zh-cn_topic_0133216132_p115911807403"></a><a name="zh-cn_topic_0133216132_p115911807403"></a>名称</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="21.782178217821784%" id="mcps1.2.4.1.2"><p id="zh-cn_topic_0133216132_p1459115044014"><a name="zh-cn_topic_0133216132_p1459115044014"></a><a name="zh-cn_topic_0133216132_p1459115044014"></a>参数类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="55.44554455445545%" id="mcps1.2.4.1.3"><p id="zh-cn_topic_0133216132_p1559111015407"><a name="zh-cn_topic_0133216132_p1559111015407"></a><a name="zh-cn_topic_0133216132_p1559111015407"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="zh-cn_topic_0133216132_row1459113024020"><td class="cellrowborder" valign="top" width="22.772277227722775%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0133216132_p175910054015"><a name="zh-cn_topic_0133216132_p175910054015"></a><a name="zh-cn_topic_0133216132_p175910054015"></a>href</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="21.782178217821784%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0133216132_p459614402597"><a name="zh-cn_topic_0133216132_p459614402597"></a><a name="zh-cn_topic_0133216132_p459614402597"></a>String</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="55.44554455445545%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0133216132_p2591150144013"><a name="zh-cn_topic_0133216132_p2591150144013"></a><a name="zh-cn_topic_0133216132_p2591150144013"></a>对应快捷链接</p>
+    </td>
+    </tr>
+    <tr id="zh-cn_topic_0133216132_row459130144018"><td class="cellrowborder" valign="top" width="22.772277227722775%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0133216132_p185911807401"><a name="zh-cn_topic_0133216132_p185911807401"></a><a name="zh-cn_topic_0133216132_p185911807401"></a>rel</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="21.782178217821784%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0133216132_p856574025910"><a name="zh-cn_topic_0133216132_p856574025910"></a><a name="zh-cn_topic_0133216132_p856574025910"></a>String</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="55.44554455445545%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0133216132_p959219013405"><a name="zh-cn_topic_0133216132_p959219013405"></a><a name="zh-cn_topic_0133216132_p959219013405"></a>快捷链接标记名称</p>
     </td>
     </tr>
     </tbody>

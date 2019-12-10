@@ -46,23 +46,23 @@
     </td>
     <td class="cellrowborder" valign="top" width="20.990000000000002%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694339_p5955797"><a name="zh-cn_topic_0118694339_p5955797"></a><a name="zh-cn_topic_0118694339_p5955797"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="38.269999999999996%" headers="mcps1.1.5.1.4 "><p id="zh-cn_topic_0118694339_p12657518"><a name="zh-cn_topic_0118694339_p12657518"></a><a name="zh-cn_topic_0118694339_p12657518"></a>Application的唯一资源标示</p>
+    <td class="cellrowborder" valign="top" width="38.269999999999996%" headers="mcps1.1.5.1.4 "><p id="zh-cn_topic_0118694339_p12657518"><a name="zh-cn_topic_0118694339_p12657518"></a><a name="zh-cn_topic_0118694339_p12657518"></a>Application的唯一资源标识，可通过<a href="查询Application.md">查询Application</a>获取该标识。</p>
     </td>
     </tr>
     </tbody>
     </table>
 
 
-## 请求<a name="zh-cn_topic_0118694339_section61875774"></a>
+## 请求消息<a name="zh-cn_topic_0118694339_section61875774"></a>
 
 -   请求样例
 
     ```
-    GET /v2/{project_id}/notifications/applications/{application_urn}
+    GET https://{SMN_Endpoint}/v2/{project_id}/notifications/applications/{application_urn}
     ```
 
 
-## 响应<a name="zh-cn_topic_0118694339_section20011062"></a>
+## 响应消息<a name="zh-cn_topic_0118694339_section20011062"></a>
 
 -   要素说明
 
@@ -79,21 +79,51 @@
     </td>
     <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.2 "><p id="zh-cn_topic_0118694339_p36705216"><a name="zh-cn_topic_0118694339_p36705216"></a><a name="zh-cn_topic_0118694339_p36705216"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="zh-cn_topic_0118694339_p20332521"><a name="zh-cn_topic_0118694339_p20332521"></a><a name="zh-cn_topic_0118694339_p20332521"></a>请求的唯一标示ID。</p>
+    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="zh-cn_topic_0118694339_p20332521"><a name="zh-cn_topic_0118694339_p20332521"></a><a name="zh-cn_topic_0118694339_p20332521"></a>请求的唯一标识ID。</p>
     </td>
     </tr>
     <tr id="zh-cn_topic_0118694339_row58458402"><td class="cellrowborder" valign="top" width="29.872987298729875%" headers="mcps1.1.4.1.1 "><p id="zh-cn_topic_0118694339_p37510120"><a name="zh-cn_topic_0118694339_p37510120"></a><a name="zh-cn_topic_0118694339_p37510120"></a>attributes</p>
     </td>
     <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.2 "><p id="zh-cn_topic_0118694339_p18420850"><a name="zh-cn_topic_0118694339_p18420850"></a><a name="zh-cn_topic_0118694339_p18420850"></a>Application_attributes结构体</p>
     </td>
-    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="zh-cn_topic_0118694339_p15693864"><a name="zh-cn_topic_0118694339_p15693864"></a><a name="zh-cn_topic_0118694339_p15693864"></a>请参见<a href="Application_attributes结构体.md">Application_attributes结构体</a></p>
+    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="zh-cn_topic_0118694339_p15693864"><a name="zh-cn_topic_0118694339_p15693864"></a><a name="zh-cn_topic_0118694339_p15693864"></a>请参见<a href="#table1480745216468">表1</a>。</p>
     </td>
     </tr>
     <tr id="row1348515372063"><td class="cellrowborder" valign="top" width="29.872987298729875%" headers="mcps1.1.4.1.1 "><p id="p248515379613"><a name="p248515379613"></a><a name="p248515379613"></a>application_id</p>
     </td>
     <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.2 "><p id="p0485113713614"><a name="p0485113713614"></a><a name="p0485113713614"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="p1148517371764"><a name="p1148517371764"></a><a name="p1148517371764"></a>Application的唯一标示ID。</p>
+    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="p1148517371764"><a name="p1148517371764"></a><a name="p1148517371764"></a>Application的唯一标识ID。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+    **表 1**  Application\_attributes结构体
+
+    <a name="table1480745216468"></a>
+    <table><thead align="left"><tr id="row20839185244616"><th class="cellrowborder" valign="top" width="34.65346534653465%" id="mcps1.2.4.1.1"><p id="p19839352124611"><a name="p19839352124611"></a><a name="p19839352124611"></a>名称</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="21.782178217821784%" id="mcps1.2.4.1.2"><p id="p383965219468"><a name="p383965219468"></a><a name="p383965219468"></a>参数类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="43.56435643564357%" id="mcps1.2.4.1.3"><p id="p138399524465"><a name="p138399524465"></a><a name="p138399524465"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row2839125294619"><td class="cellrowborder" valign="top" width="34.65346534653465%" headers="mcps1.2.4.1.1 "><p id="p13839145218464"><a name="p13839145218464"></a><a name="p13839145218464"></a>enabled</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="21.782178217821784%" headers="mcps1.2.4.1.2 "><p id="p18839105220462"><a name="p18839105220462"></a><a name="p18839105220462"></a>boolean</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="43.56435643564357%" headers="mcps1.2.4.1.3 "><p id="p1839952134616"><a name="p1839952134616"></a><a name="p1839952134616"></a>应用平台是否启用</p>
+    </td>
+    </tr>
+    <tr id="row15839185204612"><td class="cellrowborder" valign="top" width="34.65346534653465%" headers="mcps1.2.4.1.1 "><p id="p4839175274617"><a name="p4839175274617"></a><a name="p4839175274617"></a>apple_certificate_expiration_date</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="21.782178217821784%" headers="mcps1.2.4.1.2 "><p id="p19839125218462"><a name="p19839125218462"></a><a name="p19839125218462"></a>String</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="43.56435643564357%" headers="mcps1.2.4.1.3 "><p id="p1839205234610"><a name="p1839205234610"></a><a name="p1839205234610"></a>苹果证书过期时间</p>
+    <p id="p776310367391"><a name="p776310367391"></a><a name="p776310367391"></a>APNS、APNS_SANDBOX平台特有属性</p>
+    <p id="p889025912288"><a name="p889025912288"></a><a name="p889025912288"></a>时间格式为UTC时间，YYYY-MM-DDTHH:MM:SSZ</p>
     </td>
     </tr>
     </tbody>

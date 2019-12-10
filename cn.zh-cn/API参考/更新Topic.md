@@ -48,14 +48,14 @@
     </td>
     <td class="cellrowborder" valign="top" width="26.957304269573047%" headers="mcps1.1.5.1.3 "><p id="p35422295185146"><a name="p35422295185146"></a><a name="p35422295185146"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="26.107389261073894%" headers="mcps1.1.5.1.4 "><p id="p50633667185146"><a name="p50633667185146"></a><a name="p50633667185146"></a>Topic的唯一的资源标识。</p>
+    <td class="cellrowborder" valign="top" width="26.107389261073894%" headers="mcps1.1.5.1.4 "><p id="p50633667185146"><a name="p50633667185146"></a><a name="p50633667185146"></a>Topic的唯一的资源标识，可通过<a href="查询Topic列表.md">查询Topic列表</a>获取该标识。</p>
     </td>
     </tr>
     </tbody>
     </table>
 
 
-## 请求<a name="section18618345185146"></a>
+## 请求消息<a name="section18618345185146"></a>
 
 -   参数说明
 
@@ -86,38 +86,31 @@
 -   请求样例
 
     ```
-    PUT /v2/{project_id}/notifications/topics/urn:smn:regionId:f96188c7ccaf4ffba0c9aa149ab2bd57:test_topic_v2
-    ```
-
-    ```
+    PUT https://{SMN_Endpoint}/v2/{project_id}/notifications/topics/urn:smn:regionId:f96188c7ccaf4ffba0c9aa149ab2bd57:test_topic_v2
     { 
         "display_name":"testtest222"
     }
     ```
 
 
-## 响应<a name="section11007541185146"></a>
+## 响应消息<a name="section11007541185146"></a>
 
 -   要素说明
 
     <a name="table11342130185146"></a>
-    <table><thead align="left"><tr id="row63969717185146"><th class="cellrowborder" valign="top" width="17.349999999999998%" id="mcps1.1.5.1.1"><p id="p14164593185146"><a name="p14164593185146"></a><a name="p14164593185146"></a>名称</p>
+    <table><thead align="left"><tr id="row63969717185146"><th class="cellrowborder" valign="top" width="26.16%" id="mcps1.1.4.1.1"><p id="p14164593185146"><a name="p14164593185146"></a><a name="p14164593185146"></a>名称</p>
     </th>
-    <th class="cellrowborder" valign="top" width="15.310000000000002%" id="mcps1.1.5.1.2"><p id="p6481381185146"><a name="p6481381185146"></a><a name="p6481381185146"></a>参数类型</p>
+    <th class="cellrowborder" valign="top" width="23.080000000000002%" id="mcps1.1.4.1.2"><p id="p6481381185146"><a name="p6481381185146"></a><a name="p6481381185146"></a>参数类型</p>
     </th>
-    <th class="cellrowborder" valign="top" width="33.67%" id="mcps1.1.5.1.3"><p id="p55229882185146"><a name="p55229882185146"></a><a name="p55229882185146"></a>说明</p>
-    </th>
-    <th class="cellrowborder" valign="top" width="33.67%" id="mcps1.1.5.1.4"><p id="p44435480185146"><a name="p44435480185146"></a><a name="p44435480185146"></a>约束</p>
+    <th class="cellrowborder" valign="top" width="50.760000000000005%" id="mcps1.1.4.1.3"><p id="p55229882185146"><a name="p55229882185146"></a><a name="p55229882185146"></a>说明</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row42504102185146"><td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.1.5.1.1 "><p id="p20280204185146"><a name="p20280204185146"></a><a name="p20280204185146"></a>request_id</p>
+    <tbody><tr id="row42504102185146"><td class="cellrowborder" valign="top" width="26.16%" headers="mcps1.1.4.1.1 "><p id="p20280204185146"><a name="p20280204185146"></a><a name="p20280204185146"></a>request_id</p>
     </td>
-    <td class="cellrowborder" valign="top" width="15.310000000000002%" headers="mcps1.1.5.1.2 "><p id="p32083827185146"><a name="p32083827185146"></a><a name="p32083827185146"></a>String</p>
+    <td class="cellrowborder" valign="top" width="23.080000000000002%" headers="mcps1.1.4.1.2 "><p id="p32083827185146"><a name="p32083827185146"></a><a name="p32083827185146"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.67%" headers="mcps1.1.5.1.3 "><p id="p48653186185146"><a name="p48653186185146"></a><a name="p48653186185146"></a>请求的唯一标示ID。</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="33.67%" headers="mcps1.1.5.1.4 "><p id="p48594018185146"><a name="p48594018185146"></a><a name="p48594018185146"></a>-</p>
+    <td class="cellrowborder" valign="top" width="50.760000000000005%" headers="mcps1.1.4.1.3 "><p id="p48653186185146"><a name="p48653186185146"></a><a name="p48653186185146"></a>请求的唯一标识ID。</p>
     </td>
     </tr>
     </tbody>

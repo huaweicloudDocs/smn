@@ -48,22 +48,22 @@
     </td>
     <td class="cellrowborder" valign="top" width="21.012101210121013%" headers="mcps1.1.5.1.3 "><p id="p34571641"><a name="p34571641"></a><a name="p34571641"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.223322332233224%" headers="mcps1.1.5.1.4 "><p id="p48839530"><a name="p48839530"></a><a name="p48839530"></a>Topic的唯一的资源标识。</p>
+    <td class="cellrowborder" valign="top" width="33.223322332233224%" headers="mcps1.1.5.1.4 "><p id="p48839530"><a name="p48839530"></a><a name="p48839530"></a>Topic的唯一的资源标识，可通过<a href="查询Topic列表.md">查询Topic列表</a>获取该标识。</p>
     </td>
     </tr>
     </tbody>
     </table>
 
 
-## 请求<a name="section25320898"></a>
+## 请求消息<a name="section25320898"></a>
 
 请求样例
 
 ```
-GET /v2/{project_id}/notifications/topics/urn:smn:regionId:8bad8a40e0f7462f8c1676e3f93a8183:test_create_topic_v2
+GET https://{SMN_Endpoint}/v2/{project_id}/notifications/topics/urn:smn:regionId:8bad8a40e0f7462f8c1676e3f93a8183:test_create_topic_v2
 ```
 
-## 响应<a name="section26561495"></a>
+## 响应消息<a name="section26561495"></a>
 
 -   要素说明
 
@@ -80,7 +80,7 @@ GET /v2/{project_id}/notifications/topics/urn:smn:regionId:8bad8a40e0f7462f8c167
     </td>
     <td class="cellrowborder" valign="top" width="22.07%" headers="mcps1.1.4.1.2 "><p id="p27997"><a name="p27997"></a><a name="p27997"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="52.12%" headers="mcps1.1.4.1.3 "><p id="p2267763"><a name="p2267763"></a><a name="p2267763"></a>请求的唯一标示ID。</p>
+    <td class="cellrowborder" valign="top" width="52.12%" headers="mcps1.1.4.1.3 "><p id="p2267763"><a name="p2267763"></a><a name="p2267763"></a>请求的唯一标识ID。</p>
     </td>
     </tr>
     <tr id="row42586845"><td class="cellrowborder" valign="top" width="25.81%" headers="mcps1.1.4.1.1 "><p id="p26982424"><a name="p26982424"></a><a name="p26982424"></a>name</p>
@@ -94,14 +94,14 @@ GET /v2/{project_id}/notifications/topics/urn:smn:regionId:8bad8a40e0f7462f8c167
     </td>
     <td class="cellrowborder" valign="top" width="22.07%" headers="mcps1.1.4.1.2 "><p id="p63529816"><a name="p63529816"></a><a name="p63529816"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="52.12%" headers="mcps1.1.4.1.3 "><p id="p45641491"><a name="p45641491"></a><a name="p45641491"></a>Topic的唯一的资源标识。</p>
+    <td class="cellrowborder" valign="top" width="52.12%" headers="mcps1.1.4.1.3 "><p id="p45641491"><a name="p45641491"></a><a name="p45641491"></a>Topic的唯一的资源标识，可通过<a href="查询Topic列表.md">查询Topic列表</a>获取该标识。</p>
     </td>
     </tr>
     <tr id="row53759727"><td class="cellrowborder" valign="top" width="25.81%" headers="mcps1.1.4.1.1 "><p id="p59570626"><a name="p59570626"></a><a name="p59570626"></a>display_name</p>
     </td>
     <td class="cellrowborder" valign="top" width="22.07%" headers="mcps1.1.4.1.2 "><p id="p60491410"><a name="p60491410"></a><a name="p60491410"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="52.12%" headers="mcps1.1.4.1.3 "><p id="p57656838184157"><a name="p57656838184157"></a><a name="p57656838184157"></a>Topic的别名，推送邮件消息时，作为邮件发件人显示。</p>
+    <td class="cellrowborder" valign="top" width="52.12%" headers="mcps1.1.4.1.3 "><p id="p57656838184157"><a name="p57656838184157"></a><a name="p57656838184157"></a>Topic的显示名，推送邮件消息时，作为邮件发件人显示。</p>
     </td>
     </tr>
     <tr id="row20888703"><td class="cellrowborder" valign="top" width="25.81%" headers="mcps1.1.4.1.1 "><p id="p14263389"><a name="p14263389"></a><a name="p14263389"></a>push_policy</p>
@@ -117,7 +117,7 @@ GET /v2/{project_id}/notifications/topics/urn:smn:regionId:8bad8a40e0f7462f8c167
     <td class="cellrowborder" valign="top" width="22.07%" headers="mcps1.1.4.1.2 "><p id="p25265097"><a name="p25265097"></a><a name="p25265097"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="52.12%" headers="mcps1.1.4.1.3 "><p id="p33206990"><a name="p33206990"></a><a name="p33206990"></a>创建时间。</p>
-    <p id="p12947570279"><a name="p12947570279"></a><a name="p12947570279"></a>时间格式为UTC时间。</p>
+    <p id="p12947570279"><a name="p12947570279"></a><a name="p12947570279"></a>时间格式为UTC时间，YYYY-MM-DDTHH:MM:SSZ。</p>
     </td>
     </tr>
     <tr id="row48704899"><td class="cellrowborder" valign="top" width="25.81%" headers="mcps1.1.4.1.1 "><p id="p52782726"><a name="p52782726"></a><a name="p52782726"></a>update_time</p>
@@ -125,7 +125,7 @@ GET /v2/{project_id}/notifications/topics/urn:smn:regionId:8bad8a40e0f7462f8c167
     <td class="cellrowborder" valign="top" width="22.07%" headers="mcps1.1.4.1.2 "><p id="p47542385"><a name="p47542385"></a><a name="p47542385"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="52.12%" headers="mcps1.1.4.1.3 "><p id="p25727981"><a name="p25727981"></a><a name="p25727981"></a>更新时间。</p>
-    <p id="p15544215281"><a name="p15544215281"></a><a name="p15544215281"></a>时间格式为UTC时间。</p>
+    <p id="p15544215281"><a name="p15544215281"></a><a name="p15544215281"></a>时间格式为UTC时间，YYYY-MM-DDTHH:MM:SSZ。</p>
     </td>
     </tr>
     </tbody>

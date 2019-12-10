@@ -46,14 +46,14 @@
     </td>
     <td class="cellrowborder" valign="top" width="20.990000000000002%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694336_p30973510"><a name="zh-cn_topic_0118694336_p30973510"></a><a name="zh-cn_topic_0118694336_p30973510"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="38.269999999999996%" headers="mcps1.1.5.1.4 "><p id="zh-cn_topic_0118694336_p25826402"><a name="zh-cn_topic_0118694336_p25826402"></a><a name="zh-cn_topic_0118694336_p25826402"></a>Application的唯一资源标示</p>
+    <td class="cellrowborder" valign="top" width="38.269999999999996%" headers="mcps1.1.5.1.4 "><p id="zh-cn_topic_0118694336_p25826402"><a name="zh-cn_topic_0118694336_p25826402"></a><a name="zh-cn_topic_0118694336_p25826402"></a>Application的唯一资源标识，可通过<a href="查询Application.md">查询Application</a>获取该标识。</p>
     </td>
     </tr>
     </tbody>
     </table>
 
 
-## 请求<a name="zh-cn_topic_0118694336_section52593113"></a>
+## 请求消息<a name="zh-cn_topic_0118694336_section52593113"></a>
 
 -   参数说明
 
@@ -92,7 +92,7 @@
 -   请求样例
 
     ```
-    PUT /v2/{project_id}/notifications/applications/{application_urn} 
+    PUT https://{SMN_Endpoint}/v2/{project_id}/notifications/applications/{application_urn} 
     {
         "platform_principal": "appId", 
         "platform_credential": "appSecret"
@@ -100,7 +100,7 @@
     ```
 
 
-## 响应<a name="zh-cn_topic_0118694336_section3575973"></a>
+## 响应消息<a name="zh-cn_topic_0118694336_section3575973"></a>
 
 -   要素说明
 
@@ -117,7 +117,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.2 "><p id="zh-cn_topic_0118694336_p49200296"><a name="zh-cn_topic_0118694336_p49200296"></a><a name="zh-cn_topic_0118694336_p49200296"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="zh-cn_topic_0118694336_p25801015"><a name="zh-cn_topic_0118694336_p25801015"></a><a name="zh-cn_topic_0118694336_p25801015"></a>请求的唯一标示ID</p>
+    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="zh-cn_topic_0118694336_p25801015"><a name="zh-cn_topic_0118694336_p25801015"></a><a name="zh-cn_topic_0118694336_p25801015"></a>请求的唯一标识ID</p>
     </td>
     </tr>
     </tbody>
@@ -127,7 +127,7 @@
 
     ```
     {
-    "request_id": "6a63a18b8bab40ffb71ebd9cb80d0085"
+       "request_id": "6a63a18b8bab40ffb71ebd9cb80d0085"
     }
     ```
 

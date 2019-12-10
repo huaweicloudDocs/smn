@@ -16,7 +16,7 @@
 
 -   URI格式
 
-    GET /v2/\{project\_id\}/notifications/topics/\{topic\_urn\}/attributes?name=access\_policy
+    GET /v2/\{project\_id\}/notifications/topics/\{topic\_urn\}/attributes?name=\{name\}
 
 
 -   参数说明
@@ -48,7 +48,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="24.64%" headers="mcps1.1.5.1.3 "><p id="p34571641"><a name="p34571641"></a><a name="p34571641"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="30.320000000000004%" headers="mcps1.1.5.1.4 "><p id="p48839530"><a name="p48839530"></a><a name="p48839530"></a>Topic的唯一的资源标识。</p>
+    <td class="cellrowborder" valign="top" width="30.320000000000004%" headers="mcps1.1.5.1.4 "><p id="p48839530"><a name="p48839530"></a><a name="p48839530"></a>Topic的唯一的资源标识，可通过<a href="查询Topic列表.md">查询Topic列表</a>获取该标识。</p>
     </td>
     </tr>
     <tr id="row28333568111935"><td class="cellrowborder" valign="top" width="23.69%" headers="mcps1.1.5.1.1 "><p id="p13317684111935"><a name="p13317684111935"></a><a name="p13317684111935"></a>name</p>
@@ -68,15 +68,15 @@
     >如果查询不带name参数，则查询Topic的所有属性值。目前支持的属性值见[Topic属性表](Topic属性表.md)。  
 
 
-## 请求<a name="section25320898"></a>
+## 请求消息<a name="section25320898"></a>
 
 请求样例
 
 ```
-GET /v2/{project_id}/notifications/topics/urn:smn:regionId:8bad8a40e0f7462f8c1676e3f93a8183:test_create_topic_v2/attributes?name=access_policy
+GET https://{SMN_Endpoint}/v2/{project_id}/notifications/topics/urn:smn:regionId:8bad8a40e0f7462f8c1676e3f93a8183:test_create_topic_v2/attributes?name=access_policy
 ```
 
-## 响应<a name="section26561495"></a>
+## 响应消息<a name="section26561495"></a>
 
 -   要素说明
 
@@ -93,7 +93,7 @@ GET /v2/{project_id}/notifications/topics/urn:smn:regionId:8bad8a40e0f7462f8c167
     </td>
     <td class="cellrowborder" valign="top" width="32.20322032203221%" headers="mcps1.1.4.1.2 "><p id="p27997"><a name="p27997"></a><a name="p27997"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="35.5935593559356%" headers="mcps1.1.4.1.3 "><p id="p2267763"><a name="p2267763"></a><a name="p2267763"></a>请求的唯一标示ID。</p>
+    <td class="cellrowborder" valign="top" width="35.5935593559356%" headers="mcps1.1.4.1.3 "><p id="p2267763"><a name="p2267763"></a><a name="p2267763"></a>请求的唯一标识ID。</p>
     </td>
     </tr>
     <tr id="row42586845"><td class="cellrowborder" valign="top" width="32.20322032203221%" headers="mcps1.1.4.1.1 "><p id="p266368914302"><a name="p266368914302"></a><a name="p266368914302"></a>attributes</p>
@@ -101,6 +101,8 @@ GET /v2/{project_id}/notifications/topics/urn:smn:regionId:8bad8a40e0f7462f8c167
     <td class="cellrowborder" valign="top" width="32.20322032203221%" headers="mcps1.1.4.1.2 "><p id="p38092711"><a name="p38092711"></a><a name="p38092711"></a>Map</p>
     </td>
     <td class="cellrowborder" valign="top" width="35.5935593559356%" headers="mcps1.1.4.1.3 "><p id="p65610739"><a name="p65610739"></a><a name="p65610739"></a>属性的键值对。</p>
+    <p id="p87064812277"><a name="p87064812277"></a><a name="p87064812277"></a>access_policy：设置topic的方法的访问策略。</p>
+    <p id="p6701648192711"><a name="p6701648192711"></a><a name="p6701648192711"></a>introduction：设置topic的简介。</p>
     </td>
     </tr>
     </tbody>

@@ -46,14 +46,14 @@
     </td>
     <td class="cellrowborder" valign="top" width="20.990000000000002%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694307_p66105898"><a name="zh-cn_topic_0118694307_p66105898"></a><a name="zh-cn_topic_0118694307_p66105898"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="38.269999999999996%" headers="mcps1.1.5.1.4 "><p id="zh-cn_topic_0118694307_p52977523"><a name="zh-cn_topic_0118694307_p52977523"></a><a name="zh-cn_topic_0118694307_p52977523"></a>Endpoint的唯一资源标示</p>
+    <td class="cellrowborder" valign="top" width="38.269999999999996%" headers="mcps1.1.5.1.4 "><p id="zh-cn_topic_0118694307_p52977523"><a name="zh-cn_topic_0118694307_p52977523"></a><a name="zh-cn_topic_0118694307_p52977523"></a>Endpoint的唯一资源标识，可通过<a href="查询Application的Endpoint列表.md">查询Application的Endpoint列表</a>获取该标识。</p>
     </td>
     </tr>
     </tbody>
     </table>
 
 
-## 请求<a name="zh-cn_topic_0118694307_section53720453"></a>
+## 请求消息<a name="zh-cn_topic_0118694307_section53720453"></a>
 
 -   参数说明
 
@@ -92,7 +92,7 @@
 -   请求样例
 
     ```
-    PUT /v2/{project_id}/notifications/endpoints/{endpoint_urn}
+    PUT https://{SMN_Endpoint}/v2/{project_id}/notifications/endpoints/{endpoint_urn}
     {
         "enabled": "false", 
         "user_data": "This is a APNS token for user001"
@@ -100,7 +100,7 @@
     ```
 
 
-## 响应<a name="zh-cn_topic_0118694307_section13722030"></a>
+## 响应消息<a name="zh-cn_topic_0118694307_section13722030"></a>
 
 -   要素说明
 
@@ -117,7 +117,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.2 "><p id="zh-cn_topic_0118694307_p46283551"><a name="zh-cn_topic_0118694307_p46283551"></a><a name="zh-cn_topic_0118694307_p46283551"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="zh-cn_topic_0118694307_p57980147"><a name="zh-cn_topic_0118694307_p57980147"></a><a name="zh-cn_topic_0118694307_p57980147"></a>请求的唯一标示ID</p>
+    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="zh-cn_topic_0118694307_p57980147"><a name="zh-cn_topic_0118694307_p57980147"></a><a name="zh-cn_topic_0118694307_p57980147"></a>请求的唯一标识ID</p>
     </td>
     </tr>
     </tbody>

@@ -48,7 +48,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="21.447855214478555%" headers="mcps1.1.5.1.3 "><p id="p34571641"><a name="p34571641"></a><a name="p34571641"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="30.516948305169482%" headers="mcps1.1.5.1.4 "><p id="p48839530"><a name="p48839530"></a><a name="p48839530"></a>Topic的唯一的资源标识。</p>
+    <td class="cellrowborder" valign="top" width="30.516948305169482%" headers="mcps1.1.5.1.4 "><p id="p48839530"><a name="p48839530"></a><a name="p48839530"></a>Topic的唯一的资源标识，可通过<a href="查询Topic列表.md">查询Topic列表</a>获取该标识。</p>
     </td>
     </tr>
     <tr id="row3251307152236"><td class="cellrowborder" valign="top" width="24.80751924807519%" headers="mcps1.1.5.1.1 "><p id="p62029310152236"><a name="p62029310152236"></a><a name="p62029310152236"></a>name</p>
@@ -65,7 +65,7 @@
     </table>
 
 
-## 请求<a name="section25320898"></a>
+## 请求消息<a name="section25320898"></a>
 
 -   参数说明
 
@@ -87,7 +87,103 @@
     <td class="cellrowborder" valign="top" width="25.22%" headers="mcps1.1.5.1.3 "><p id="p32726699185146"><a name="p32726699185146"></a><a name="p32726699185146"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="35.07%" headers="mcps1.1.5.1.4 "><p id="p33616928185146"><a name="p33616928185146"></a><a name="p33616928185146"></a>Topic的属性值。</p>
-    <p id="p5140847203117"><a name="p5140847203117"></a><a name="p5140847203117"></a>最大支持30KB。</p>
+    <p id="p5140847203117"><a name="p5140847203117"></a><a name="p5140847203117"></a>最大支持30KB，详情请参考<a href="#table53240944112753">表1</a>。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+    **表 1**  Topic的属性值
+
+    <a name="table53240944112753"></a>
+    <table><thead align="left"><tr id="row21987414112753"><th class="cellrowborder" valign="top" width="21.709999999999997%" id="mcps1.2.4.1.1"><p id="p35443943112753"><a name="p35443943112753"></a><a name="p35443943112753"></a><strong id="b33764377112753"><a name="b33764377112753"></a><a name="b33764377112753"></a>名称</strong></p>
+    </th>
+    <th class="cellrowborder" valign="top" width="45.22%" id="mcps1.2.4.1.2"><p id="p1722161112753"><a name="p1722161112753"></a><a name="p1722161112753"></a><strong id="b52387134112753"><a name="b52387134112753"></a><a name="b52387134112753"></a>说明</strong></p>
+    </th>
+    <th class="cellrowborder" valign="top" width="33.07%" id="mcps1.2.4.1.3"><p id="p47496205112753"><a name="p47496205112753"></a><a name="p47496205112753"></a><strong id="b5277356112753"><a name="b5277356112753"></a><a name="b5277356112753"></a>约束</strong></p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row44101580112753"><td class="cellrowborder" valign="top" width="21.709999999999997%" headers="mcps1.2.4.1.1 "><p id="p36150079112753"><a name="p36150079112753"></a><a name="p36150079112753"></a>Version</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="45.22%" headers="mcps1.2.4.1.2 "><p id="p42475248112753"><a name="p42475248112753"></a><a name="p42475248112753"></a>访问策略规范版本。</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="33.07%" headers="mcps1.2.4.1.3 "><p id="p17943058112753"><a name="p17943058112753"></a><a name="p17943058112753"></a>目前只支持“2016-09-07”。</p>
+    </td>
+    </tr>
+    <tr id="row46405782112753"><td class="cellrowborder" valign="top" width="21.709999999999997%" headers="mcps1.2.4.1.1 "><p id="p61369906112753"><a name="p61369906112753"></a><a name="p61369906112753"></a>Id</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="45.22%" headers="mcps1.2.4.1.2 "><p id="p4906500112753"><a name="p4906500112753"></a><a name="p4906500112753"></a>策略的唯一标识。</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="33.07%" headers="mcps1.2.4.1.3 "><p id="p61882243112753"><a name="p61882243112753"></a><a name="p61882243112753"></a>不能为空。</p>
+    </td>
+    </tr>
+    <tr id="row39288912112753"><td class="cellrowborder" valign="top" width="21.709999999999997%" headers="mcps1.2.4.1.1 "><p id="p14998859112753"><a name="p14998859112753"></a><a name="p14998859112753"></a>Statement</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="45.22%" headers="mcps1.2.4.1.2 "><p id="p1139155615212"><a name="p1139155615212"></a><a name="p1139155615212"></a>访问策略是通过Statement语句来定义的。一个访问策略可包含一条或多条Statement语句。通过Statement语句向其他用户或云服务授权对主题的操作。</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="33.07%" headers="mcps1.2.4.1.3 "><p id="p31968219112753"><a name="p31968219112753"></a><a name="p31968219112753"></a>一个策略至少一条Statement语句。Statement语句的包含的元素，请参见<a href="#table13574080155334">表2</a>。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+    **表 2**  Statement语句元素说明
+
+    <a name="table13574080155334"></a>
+    <table><thead align="left"><tr id="row2428006155334"><th class="cellrowborder" valign="top" width="17%" id="mcps1.2.4.1.1"><p id="p66371740155519"><a name="p66371740155519"></a><a name="p66371740155519"></a><strong id="b43082088194323"><a name="b43082088194323"></a><a name="b43082088194323"></a>元素名称</strong></p>
+    </th>
+    <th class="cellrowborder" valign="top" width="33%" id="mcps1.2.4.1.2"><p id="p66616597155519"><a name="p66616597155519"></a><a name="p66616597155519"></a><strong id="b62678468155519"><a name="b62678468155519"></a><a name="b62678468155519"></a>说明</strong></p>
+    </th>
+    <th class="cellrowborder" valign="top" width="50%" id="mcps1.2.4.1.3"><p id="p43791157155519"><a name="p43791157155519"></a><a name="p43791157155519"></a><strong id="b58576097155519"><a name="b58576097155519"></a><a name="b58576097155519"></a>约束</strong></p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row5501174215551"><td class="cellrowborder" valign="top" width="17%" headers="mcps1.2.4.1.1 "><p id="p2745813215551"><a name="p2745813215551"></a><a name="p2745813215551"></a>Sid</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.2 "><p id="p951625815551"><a name="p951625815551"></a><a name="p951625815551"></a>Statement语句的ID。</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="p3261944415551"><a name="p3261944415551"></a><a name="p3261944415551"></a>Statement语句ID必须是唯一的，例如statement01、statement02。</p>
+    </td>
+    </tr>
+    <tr id="row2102549615551"><td class="cellrowborder" valign="top" width="17%" headers="mcps1.2.4.1.1 "><p id="p2303739015551"><a name="p2303739015551"></a><a name="p2303739015551"></a>Effect</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.2 "><p id="p5408933915551"><a name="p5408933915551"></a><a name="p5408933915551"></a>Statement语句的效果。</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="p1916032815551"><a name="p1916032815551"></a><a name="p1916032815551"></a>“Allow”或者“Deny”。</p>
+    </td>
+    </tr>
+    <tr id="row233616615551"><td class="cellrowborder" valign="top" width="17%" headers="mcps1.2.4.1.1 "><p id="p923559515551"><a name="p923559515551"></a><a name="p923559515551"></a>Principal</p>
+    <p id="p143555201842"><a name="p143555201842"></a><a name="p143555201842"></a>NotPrincipal</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.2 "><a name="ul56995346416"></a><a name="ul56995346416"></a><ul id="ul56995346416"><li>Principal：Statement语句作用的对象。</li><li>NotPrincipal：Statement语句排除作用的对象。<p id="p716351816"><a name="p716351816"></a><a name="p716351816"></a>目前支持“CSP”和“Service”两类对象</p>
+    <a name="ul64637189213"></a><a name="ul64637189213"></a><ul id="ul64637189213"><li>“CSP”对象指的是其他用户，可以作用于多个用户。</li><li>“Service”对象指的是云服务，可以作用于多个云服务。</li></ul>
+    </li></ul>
+    </td>
+    <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="p44931755164956"><a name="p44931755164956"></a><a name="p44931755164956"></a>Principal元素和NotPrincipal元素两者任选其一。</p>
+    <p id="p635516547536"><a name="p635516547536"></a><a name="p635516547536"></a>选定后，</p>
+    <a name="ul866085865315"></a><a name="ul866085865315"></a><ul id="ul866085865315"><li>“CSP”对象填写内容的格式为格式为urn:csp:iam::domainId:root，其中domainId为其他用户的“账号ID”。</li><li>“Service”对象填写内容的格式为小写的云服务名称缩写。</li></ul>
+    </td>
+    </tr>
+    <tr id="row2239846215551"><td class="cellrowborder" valign="top" width="17%" headers="mcps1.2.4.1.1 "><p id="p5316167715551"><a name="p5316167715551"></a><a name="p5316167715551"></a>Action</p>
+    <p id="p586515126814"><a name="p586515126814"></a><a name="p586515126814"></a>NotAction</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.2 "><a name="ul139511146291"></a><a name="ul139511146291"></a><ul id="ul139511146291"><li>Action：Statement语句作用的操作。</li></ul>
+    <a name="ul16815171817"></a><a name="ul16815171817"></a><ul id="ul16815171817"><li>NotAction：Statement语句排除作用的操作。<p id="p328452812317"><a name="p328452812317"></a><a name="p328452812317"></a>允许使用通配符来表示一类操作，例如：SMN:Update*、SMN:Delete*。如果只填写“*”，表示Statement语句作用的操作为该资源支持的所有操作。</p>
+    </li></ul>
+    </td>
+    <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="p58838218165112"><a name="p58838218165112"></a><a name="p58838218165112"></a>Action元素和NotAction元素两者任选其一</p>
+    <p id="p2900090715551"><a name="p2900090715551"></a><a name="p2900090715551"></a>目前支持的操作有：</p>
+    <a name="ul5968157515551"></a><a name="ul5968157515551"></a><ul id="ul5968157515551"><li>SMN:UpdateTopic</li><li>SMN:DeleteTopic</li><li>SMN:QueryTopicDetail</li><li>SMN:ListTopicAttributes</li><li>SMN:UpdateTopicAttribute</li><li>SMN:DeleteTopicAttributes</li><li>SMN:DeleteTopicAttributeByName</li><li>SMN:ListSubscriptionsByTopic</li><li>SMN:Subscribe</li><li>SMN:Unsubscribe</li><li>SMN:Publish</li></ul>
+    </td>
+    </tr>
+    <tr id="row3341670315551"><td class="cellrowborder" valign="top" width="17%" headers="mcps1.2.4.1.1 "><p id="p129519266014"><a name="p129519266014"></a><a name="p129519266014"></a>Resource</p>
+    <p id="p840677215551"><a name="p840677215551"></a><a name="p840677215551"></a>NotResource</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.2 "><a name="ul72911752161111"></a><a name="ul72911752161111"></a><ul id="ul72911752161111"><li>Resource：Statement语句作用的主题。</li><li>NotResource：Statement语句排除作用的主题。</li></ul>
+    </td>
+    <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="p14977997165224"><a name="p14977997165224"></a><a name="p14977997165224"></a>Resource和NotResource两者任选其一</p>
+    <p id="p6045376015551"><a name="p6045376015551"></a><a name="p6045376015551"></a>选定后，填写内容为主题URN。</p>
     </td>
     </tr>
     </tbody>
@@ -96,7 +192,7 @@
 -   请求样例
 
     ```
-    PUT /v2/{project_id}/notifications/topics/{topic_urn}/attributes/access_policy
+    PUT https://{SMN_Endpoint}/v2/{project_id}/notifications/topics/{topic_urn}/attributes/access_policy
     ```
 
     ```
@@ -131,12 +227,11 @@
     ```
 
     >![](public_sys-resources/icon-note.gif) **说明：**   
-    >-   在使用以上样例时，斜体的_\{project\_id\}、__\{domainID\}_和_\{topic\_urn\}_需替换为实际值。  
-    >    其中，domainID是用户的账号ID，获取方法为：登录消息通知服务控制台，单击右上角用户名下的“我的凭证”，查看“账号ID”。  
-    >-   “access\_policy”属性的值是一个Json字符串，在使用的过程中需要转义。以上样例为了直观说明未做转义，需做转义才能使用。  
+    >在使用以上样例时，斜体的_\{project\_id\}、__\{domainID\}_和_\{topic\_urn\}_需替换为实际值。  
+    >其中，domainID是用户的账号ID，获取方法为：登录消息通知服务控制台，单击右上角用户名下的“我的凭证”，查看“账号ID”。  
 
 
-## 响应<a name="section26561495"></a>
+## 响应消息<a name="section26561495"></a>
 
 -   要素说明
 
@@ -153,7 +248,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="31.380000000000003%" headers="mcps1.1.4.1.2 "><p id="p27997"><a name="p27997"></a><a name="p27997"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="38.58%" headers="mcps1.1.4.1.3 "><p id="p2267763"><a name="p2267763"></a><a name="p2267763"></a>请求的唯一标示ID。</p>
+    <td class="cellrowborder" valign="top" width="38.58%" headers="mcps1.1.4.1.3 "><p id="p2267763"><a name="p2267763"></a><a name="p2267763"></a>请求的唯一标识ID。</p>
     </td>
     </tr>
     </tbody>
