@@ -1,8 +1,8 @@
-# 向主题发布JSON消息<a name="ZH-CN_TOPIC_0044170767"></a>
+# 向主题发布JSON消息<a name="zh-cn_topic_0044170767"></a>
 
 ## 操作场景<a name="section3152890014563"></a>
 
-如果您需要向不同的订阅协议发送不同的内容，可以向主题发布JSON消息，它可以定义分别向短信、邮件、FunctionGraph（函数）、Functiongraph（工作流）、Application、DMS和HTTP\(S\)订阅协议发送不同内容。
+如果您需要向不同的订阅协议发送不同的内容，可以向主题发布JSON消息，它可以定义分别向短信、邮件、FunctionGraph（函数）、Functiongraph（工作流）、应用、DMS和HTTP\(S\)订阅协议发送不同内容。
 
 ## 前提条件<a name="section96171713434"></a>
 

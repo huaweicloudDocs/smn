@@ -1,4 +1,4 @@
-# HMS入门<a name="ZH-CN_TOPIC_0117601021"></a>
+# HMS入门<a name="smn_ug_0020"></a>
 
 HMS是为开发者提供的消息推送平台，建立了从云端到手机端的消息推送通道，使应用可以将最新信息及时通知用户。
 
@@ -7,15 +7,14 @@ HMS是为开发者提供的消息推送平台，建立了从云端到手机端�
 ## 使用HMS的步骤<a name="section199041725017"></a>
 
 1.  注册为开发者。
-    1.  访问[华为开发者联盟](http://developer.huawei.md)。
+    1.  访问[华为开发者联盟](https://developer.huawei.com/consumer/cn)。
     2.  单击注册，注册成为开发者。
 
         **图 1**  注册华为开发者联盟<a name="fig44104813147"></a>  
         ![](figures/注册华为开发者联盟.png "注册华为开发者联盟")
 
-
 2.  创建应用。
-    1.  登录[华为开发者联盟](http://developer.huawei.md)。
+    1.  登录[华为开发者联盟](https://developer.huawei.com/consumer/cn)。
     2.  单击“会员中心”，进入我的产品页面。
 
         **图 2**  进入会员中心<a name="fig20954121671615"></a>  
@@ -55,9 +54,8 @@ HMS是为开发者提供的消息推送平台，建立了从云端到手机端�
 
         开发者为APP开通PUSH服务后，华为方会分配服务参数，用于开发者集成HMS SDK时使用。
 
-
 4.  获取PUSH服务参数。
-    1.  登录[华为开发者联盟](http://developer.huawei.md)。
+    1.  登录[华为开发者联盟](https://developer.huawei.com/consumer/cn)。
     2.  选择“会员中心 \> 我的产品“，单击产品名称，进入指定的产品页面。
     3.  单击“移动应用详情“链接，在弹出的“移动服务详情”对话框获取服务参数。
 
