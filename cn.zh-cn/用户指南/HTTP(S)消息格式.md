@@ -1,4 +1,4 @@
-# HTTP\(S\)消息格式<a name="zh-cn_topic_0044402394"></a>
+# HTTP\(S\)消息格式<a name="smn_ug_a9002"></a>
 
 ## 操作场景<a name="section32651219144241"></a>
 

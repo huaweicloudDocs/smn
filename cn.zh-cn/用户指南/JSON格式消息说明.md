@@ -1,4 +1,4 @@
-# JSON格式消息说明<a name="zh-cn_topic_0047574409"></a>
+# JSON格式消息说明<a name="smn_ug_a1000"></a>
 
 ## JSON格式体说明<a name="section534667717028"></a>
 
