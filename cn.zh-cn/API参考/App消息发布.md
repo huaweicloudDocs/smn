@@ -1,4 +1,4 @@
-# App消息发布<a name="ZH-CN_TOPIC_0118712470"></a>
+# App消息发布<a name="smn_api_59001"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694332_section46354700"></a>
 
@@ -75,7 +75,7 @@
     <td class="cellrowborder" valign="top" width="18.031803180318033%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694332_p66774621"><a name="zh-cn_topic_0118694332_p66774621"></a><a name="zh-cn_topic_0118694332_p66774621"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="39.34393439343935%" headers="mcps1.1.5.1.4 "><p id="p1097434819313"><a name="p1097434819313"></a><a name="p1097434819313"></a>app推送的消息内容，当前支持的推送平台有HMS、APNS、APNS_SANDBOX。</p>
-    <a name="ul10271204916315"></a><a name="ul10271204916315"></a><ul id="ul10271204916315"><li><span>HMS是为开发者提供的消息推送平台</span>。</li><li>APNS和APNS_SANDBOX<span>是用于推送iOS消息的服务平台。</span></li><li>HMS平台指定的消息内容不超过2K</li><li>APNS和APNS_SANDBOX平台的消息内容不能超过4K</li></ul>
+    <a name="ul10271204916315"></a><a name="ul10271204916315"></a><ul id="ul10271204916315"><li>HMS是为开发者提供的消息推送平台。</li><li>APNS和APNS_SANDBOX是用于推送iOS消息的服务平台。</li><li>HMS平台指定的消息内容不超过2K</li><li>APNS和APNS_SANDBOX平台的消息内容不能超过4K</li></ul>
     <p id="p89342034424"><a name="p89342034424"></a><a name="p89342034424"></a>推送平台的消息内容格式要求详情见<a href="application消息体格式.md">application消息体格式</a>。</p>
     </td>
     </tr>
@@ -85,9 +85,9 @@
     </td>
     <td class="cellrowborder" valign="top" width="18.031803180318033%" headers="mcps1.1.5.1.3 "><p id="p123388576157"><a name="p123388576157"></a><a name="p123388576157"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="39.34393439343935%" headers="mcps1.1.5.1.4 "><p id="p860697124615"><a name="p860697124615"></a><a name="p860697124615"></a>消息发送的生存时间，是<span>相对于发布时间的。</span></p>
-    <p id="p4356925115613"><a name="p4356925115613"></a><a name="p4356925115613"></a><span>SMN</span><span>系统将移动推送消息转交给推送平台前，</span><span>会计算该消息在系统消耗的时间。</span><span>只有消耗的时间小于</span><span>time_to_live时</span><span>，</span><span>SMN</span><span>才会将消息转交给推送平台，并</span><span>将t</span><span>ime_to_live</span><span>减去消耗的时间传递给推送平台，否则消息废弃。</span></p>
-    <p id="p0262452195420"><a name="p0262452195420"></a><a name="p0262452195420"></a>time _to_live的单位是s，变量默认值是3600s，即一小时。<span>值为正整</span><span>数</span>且小于等于3600*24*7。</p>
+    <td class="cellrowborder" valign="top" width="39.34393439343935%" headers="mcps1.1.5.1.4 "><p id="p860697124615"><a name="p860697124615"></a><a name="p860697124615"></a>消息发送的生存时间，是相对于发布时间的。</p>
+    <p id="p4356925115613"><a name="p4356925115613"></a><a name="p4356925115613"></a>SMN系统将移动推送消息转交给推送平台前，会计算该消息在系统消耗的时间。只有消耗的时间小于time_to_live时，SMN才会将消息转交给推送平台，并将time_to_live减去消耗的时间传递给推送平台，否则消息废弃。</p>
+    <p id="p0262452195420"><a name="p0262452195420"></a><a name="p0262452195420"></a>time _to_live的单位是s，变量默认值是3600s，即一小时。值为正整数且小于等于3600*24*7。</p>
     </td>
     </tr>
     </tbody>

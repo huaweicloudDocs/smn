@@ -1,4 +1,4 @@
-# 删除Application endpoint<a name="ZH-CN_TOPIC_0118712466"></a>
+# 删除Application endpoint<a name="smn_api_58003"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694308_section24495972"></a>
 

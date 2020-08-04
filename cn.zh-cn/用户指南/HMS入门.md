@@ -46,8 +46,8 @@ HMS是为开发者提供的消息推送平台，建立了从云端到手机端�
         **图 6**  配置PUSH服务<a name="fig103751039152217"></a>  
         ![](figures/配置PUSH服务.png "配置PUSH服务")
 
-        >![](public_sys-resources/icon-note.gif) **说明：**   
-        >应用包名必须和APK包名保持一致，且不可更改，请谨慎填写。  
+        >![](public_sys-resources/icon-note.gif) **说明：** 
+        >应用包名必须和APK包名保持一致，且不可更改，请谨慎填写。
 
     4.  勾选“我已阅读并同意《华为开发者PUSH能力使用合作协议》”。
     5.  单击“下一步”，完成服务申请。

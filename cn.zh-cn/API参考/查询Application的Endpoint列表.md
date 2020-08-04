@@ -1,4 +1,4 @@
-# 查询Application的Endpoint列表<a name="ZH-CN_TOPIC_0118712467"></a>
+# 查询Application的Endpoint列表<a name="smn_api_58004"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694309_section50470647"></a>
 
@@ -53,7 +53,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="19.75%" headers="mcps1.1.5.1.2 "><p id="zh-cn_topic_0118694309_p8314568"><a name="zh-cn_topic_0118694309_p8314568"></a><a name="zh-cn_topic_0118694309_p8314568"></a>否</p>
     </td>
-    <td class="cellrowborder" valign="top" width="20.990000000000002%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694309_p2391374"><a name="zh-cn_topic_0118694309_p2391374"></a><a name="zh-cn_topic_0118694309_p2391374"></a>int</p>
+    <td class="cellrowborder" valign="top" width="20.990000000000002%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694309_p2391374"><a name="zh-cn_topic_0118694309_p2391374"></a><a name="zh-cn_topic_0118694309_p2391374"></a>Integer</p>
     </td>
     <td class="cellrowborder" valign="top" width="38.269999999999996%" headers="mcps1.1.5.1.4 "><p id="p146581828102110"><a name="p146581828102110"></a><a name="p146581828102110"></a>偏移量</p>
     <p id="p21821344207"><a name="p21821344207"></a><a name="p21821344207"></a>偏移量为一个大于0小于资源总个数的整数，表示查询该偏移量后面的所有的资源数，默认值为0。</p>
@@ -63,7 +63,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="19.75%" headers="mcps1.1.5.1.2 "><p id="zh-cn_topic_0118694309_p10346342"><a name="zh-cn_topic_0118694309_p10346342"></a><a name="zh-cn_topic_0118694309_p10346342"></a>否</p>
     </td>
-    <td class="cellrowborder" valign="top" width="20.990000000000002%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694309_p32747334"><a name="zh-cn_topic_0118694309_p32747334"></a><a name="zh-cn_topic_0118694309_p32747334"></a>int</p>
+    <td class="cellrowborder" valign="top" width="20.990000000000002%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694309_p32747334"><a name="zh-cn_topic_0118694309_p32747334"></a><a name="zh-cn_topic_0118694309_p32747334"></a>Integer</p>
     </td>
     <td class="cellrowborder" valign="top" width="38.269999999999996%" headers="mcps1.1.5.1.4 "><a name="ul38160342182720"></a><a name="ul38160342182720"></a><ul id="ul38160342182720"><li>取值范围：0~100<p id="p3980022182720"><a name="p3980022182720"></a><a name="p3980022182720"></a>取值一般为10，20，50</p>
     </li><li>功能说明：每页返回的资源个数。</li></ul>

@@ -1,4 +1,4 @@
-# Topic属性表<a name="ZH-CN_TOPIC_0038403195"></a>
+# Topic属性表<a name="smn_api_a1000"></a>
 
 <a name="table13529670144050"></a>
 <table><thead align="left"><tr id="row56391866144050"><th class="cellrowborder" valign="top" width="26.19%" id="mcps1.1.4.1.1"><p id="p39045854144050"><a name="p39045854144050"></a><a name="p39045854144050"></a>属性名称</p>

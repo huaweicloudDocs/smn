@@ -1,4 +1,4 @@
-# 更新Application<a name="ZH-CN_TOPIC_0118712459"></a>
+# 更新Application<a name="smn_api_57002"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694336_section16390883"></a>
 

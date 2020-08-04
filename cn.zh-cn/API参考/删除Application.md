@@ -1,4 +1,4 @@
-# 删除Application<a name="ZH-CN_TOPIC_0118712460"></a>
+# 删除Application<a name="smn_api_57003"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694337_section64534832"></a>
 

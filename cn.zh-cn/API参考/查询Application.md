@@ -1,4 +1,4 @@
-# 查询Application<a name="ZH-CN_TOPIC_0118712461"></a>
+# 查询Application<a name="smn_api_57004"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694338_section3715866"></a>
 
@@ -44,7 +44,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="15.28%" headers="mcps1.1.5.1.2 "><p id="zh-cn_topic_0118694338_p12176142"><a name="zh-cn_topic_0118694338_p12176142"></a><a name="zh-cn_topic_0118694338_p12176142"></a>否</p>
     </td>
-    <td class="cellrowborder" valign="top" width="15.28%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694338_p46743437"><a name="zh-cn_topic_0118694338_p46743437"></a><a name="zh-cn_topic_0118694338_p46743437"></a>int</p>
+    <td class="cellrowborder" valign="top" width="15.28%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694338_p46743437"><a name="zh-cn_topic_0118694338_p46743437"></a><a name="zh-cn_topic_0118694338_p46743437"></a>Integer</p>
     </td>
     <td class="cellrowborder" valign="top" width="45.83%" headers="mcps1.1.5.1.4 "><p id="p146581828102110"><a name="p146581828102110"></a><a name="p146581828102110"></a>偏移量</p>
     <p id="p21821344207"><a name="p21821344207"></a><a name="p21821344207"></a>偏移量为一个大于0小于资源总个数的整数，表示查询该偏移量后面的所有的资源数，默认值为0。</p>
@@ -54,7 +54,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="15.28%" headers="mcps1.1.5.1.2 "><p id="zh-cn_topic_0118694338_p58675139"><a name="zh-cn_topic_0118694338_p58675139"></a><a name="zh-cn_topic_0118694338_p58675139"></a>否</p>
     </td>
-    <td class="cellrowborder" valign="top" width="15.28%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694338_p55065844"><a name="zh-cn_topic_0118694338_p55065844"></a><a name="zh-cn_topic_0118694338_p55065844"></a>int</p>
+    <td class="cellrowborder" valign="top" width="15.28%" headers="mcps1.1.5.1.3 "><p id="zh-cn_topic_0118694338_p55065844"><a name="zh-cn_topic_0118694338_p55065844"></a><a name="zh-cn_topic_0118694338_p55065844"></a>Integer</p>
     </td>
     <td class="cellrowborder" valign="top" width="45.83%" headers="mcps1.1.5.1.4 "><a name="ul38160342182720"></a><a name="ul38160342182720"></a><ul id="ul38160342182720"><li>取值范围：0~100<p id="p3980022182720"><a name="p3980022182720"></a><a name="p3980022182720"></a>取值一般为10，20，50</p>
     </li><li>功能说明：每页返回的资源个数。</li></ul>
@@ -79,8 +79,8 @@
     </td>
     <td class="cellrowborder" valign="top" width="45.83%" headers="mcps1.1.5.1.4 "><p id="zh-cn_topic_0118694338_p2632225"><a name="zh-cn_topic_0118694338_p2632225"></a><a name="zh-cn_topic_0118694338_p2632225"></a>应用平台</p>
     <p id="p168001951808"><a name="p168001951808"></a><a name="p168001951808"></a>目前仅支持HMS、APNS、APNS_SANDBOX。</p>
-    <p id="p13766536143619"><a name="p13766536143619"></a><a name="p13766536143619"></a><span>HMS是为开发者提供的消息推送平台</span>。</p>
-    <p id="p15471145103612"><a name="p15471145103612"></a><a name="p15471145103612"></a>APNS和APNS_SANDBOX<span>是用于推送iOS消息的服务平台。</span></p>
+    <p id="p13766536143619"><a name="p13766536143619"></a><a name="p13766536143619"></a>HMS是为开发者提供的消息推送平台。</p>
+    <p id="p15471145103612"><a name="p15471145103612"></a><a name="p15471145103612"></a>APNS和APNS_SANDBOX是用于推送iOS消息的服务平台。</p>
     </td>
     </tr>
     </tbody>
@@ -118,7 +118,7 @@
     </tr>
     <tr id="zh-cn_topic_0118694338_row44511700"><td class="cellrowborder" valign="top" width="29.872987298729875%" headers="mcps1.1.4.1.1 "><p id="zh-cn_topic_0118694338_p48677920"><a name="zh-cn_topic_0118694338_p48677920"></a><a name="zh-cn_topic_0118694338_p48677920"></a>application_count</p>
     </td>
-    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.2 "><p id="zh-cn_topic_0118694338_p50597473"><a name="zh-cn_topic_0118694338_p50597473"></a><a name="zh-cn_topic_0118694338_p50597473"></a>int</p>
+    <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.2 "><p id="zh-cn_topic_0118694338_p50597473"><a name="zh-cn_topic_0118694338_p50597473"></a><a name="zh-cn_topic_0118694338_p50597473"></a>Integer</p>
     </td>
     <td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="zh-cn_topic_0118694338_p4754687"><a name="zh-cn_topic_0118694338_p4754687"></a><a name="zh-cn_topic_0118694338_p4754687"></a>返回的Application个数。</p>
     <div class="note" id="note48698383125"><a name="note48698383125"></a><a name="note48698383125"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p452954191219"><a name="p452954191219"></a><a name="p452954191219"></a>该参数不受offset和limit影响，即返回的是您账户下所有的Application个数。</p>
@@ -214,7 +214,7 @@
             "platform": "APNS",
             "enabled": "true",
             "application_urn": "urn:smn:regionId:429ffced18074da0938112f2c362b935:app-APNS-application_name001",
-            "application_id":"b1b8643dc12b4g77ad6e35a16003119b"
+            "application_id": "b1b8643dc12b4g77ad6e35a16003119b"
         },
         {
             "create_time": "2018-01-11T12:58:58Z",
@@ -223,7 +223,7 @@
             "platform": "APNS",
             "enabled": "true",
             "application_urn": "urn:smn:regionId:429ffced18074da0938112f2c362b935:app-APNS-application_name002",
-            "application_id":"a3a4643dc12b4g77ad6e35a16002558c"
+            "application_id": "a3a4643dc12b4g77ad6e35a16002558c"
         }]
     }
     ```

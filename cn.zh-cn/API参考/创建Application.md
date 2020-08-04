@@ -1,4 +1,4 @@
-# 创建Application<a name="ZH-CN_TOPIC_0118712458"></a>
+# 创建Application<a name="smn_api_57001"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694335_section8024025"></a>
 
@@ -77,8 +77,8 @@
     </td>
     <td class="cellrowborder" valign="top" width="39.70602939706029%" headers="mcps1.1.5.1.4 "><p id="zh-cn_topic_0118694335_p42816746"><a name="zh-cn_topic_0118694335_p42816746"></a><a name="zh-cn_topic_0118694335_p42816746"></a>应用平台</p>
     <p id="p52368466574"><a name="p52368466574"></a><a name="p52368466574"></a>目前仅支持HMS、APNS、APNS_SANDBOX。</p>
-    <p id="p13766536143619"><a name="p13766536143619"></a><a name="p13766536143619"></a><span>HMS是为开发者提供的消息推送平台</span>。</p>
-    <p id="p15471145103612"><a name="p15471145103612"></a><a name="p15471145103612"></a>APNS和APNS_SANDBOX<span>是用于推送iOS消息的服务平台。</span></p>
+    <p id="p13766536143619"><a name="p13766536143619"></a><a name="p13766536143619"></a>HMS是为开发者提供的消息推送平台。</p>
+    <p id="p15471145103612"><a name="p15471145103612"></a><a name="p15471145103612"></a>APNS和APNS_SANDBOX是用于推送iOS消息的服务平台。</p>
     </td>
     </tr>
     <tr id="zh-cn_topic_0118694335_row7786314"><td class="cellrowborder" valign="top" width="24.997500249975%" headers="mcps1.1.5.1.1 "><p id="zh-cn_topic_0118694335_p26711708"><a name="zh-cn_topic_0118694335_p26711708"></a><a name="zh-cn_topic_0118694335_p26711708"></a>platform_principal</p>

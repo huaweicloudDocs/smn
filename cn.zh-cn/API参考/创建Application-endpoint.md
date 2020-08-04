@@ -1,4 +1,4 @@
-# 创建Application endpoint<a name="ZH-CN_TOPIC_0118712464"></a>
+# 创建Application endpoint<a name="smn_api_58001"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694341_section51620241"></a>
 

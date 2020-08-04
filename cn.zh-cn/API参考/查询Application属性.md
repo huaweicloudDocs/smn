@@ -1,4 +1,4 @@
-# 查询Application属性<a name="ZH-CN_TOPIC_0118712462"></a>
+# 查询Application属性<a name="smn_api_57005"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694339_section19819501"></a>
 
@@ -135,7 +135,7 @@
     ```
     {
         "request_id": "c2b8643dc12b5e77ad6e35a16003229b", 
-        "application_id":"b1b8643dc12b4g77ad6e35a16003119b",
+        "application_id": "b1b8643dc12b4g77ad6e35a16003119b",
         "attributes": {
             "enabled": "true", 
             "apple_certificate_expiration_date": "2018-03-09T12:21:40Z"

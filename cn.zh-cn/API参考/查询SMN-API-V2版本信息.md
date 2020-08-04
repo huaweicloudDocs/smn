@@ -1,4 +1,4 @@
-# 查询SMN API V2版本信息<a name="ZH-CN_TOPIC_0133216133"></a>
+# 查询SMN API V2版本信息<a name="smn_api_510002"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694332_section46354700"></a>
 
@@ -139,26 +139,26 @@
     **表 3**  Links结构体
 
     <a name="table864210364409"></a>
-    <table><thead align="left"><tr id="zh-cn_topic_0133216132_row159118012401"><th class="cellrowborder" valign="top" width="22.772277227722775%" id="mcps1.2.4.1.1"><p id="zh-cn_topic_0133216132_p115911807403"><a name="zh-cn_topic_0133216132_p115911807403"></a><a name="zh-cn_topic_0133216132_p115911807403"></a>名称</p>
+    <table><thead align="left"><tr id="smn_api_510001_row159118012401"><th class="cellrowborder" valign="top" width="22.772277227722775%" id="mcps1.2.4.1.1"><p id="smn_api_510001_p115911807403"><a name="smn_api_510001_p115911807403"></a><a name="smn_api_510001_p115911807403"></a>名称</p>
     </th>
-    <th class="cellrowborder" valign="top" width="21.782178217821784%" id="mcps1.2.4.1.2"><p id="zh-cn_topic_0133216132_p1459115044014"><a name="zh-cn_topic_0133216132_p1459115044014"></a><a name="zh-cn_topic_0133216132_p1459115044014"></a>参数类型</p>
+    <th class="cellrowborder" valign="top" width="21.782178217821784%" id="mcps1.2.4.1.2"><p id="smn_api_510001_p1459115044014"><a name="smn_api_510001_p1459115044014"></a><a name="smn_api_510001_p1459115044014"></a>参数类型</p>
     </th>
-    <th class="cellrowborder" valign="top" width="55.44554455445545%" id="mcps1.2.4.1.3"><p id="zh-cn_topic_0133216132_p1559111015407"><a name="zh-cn_topic_0133216132_p1559111015407"></a><a name="zh-cn_topic_0133216132_p1559111015407"></a>说明</p>
+    <th class="cellrowborder" valign="top" width="55.44554455445545%" id="mcps1.2.4.1.3"><p id="smn_api_510001_p1559111015407"><a name="smn_api_510001_p1559111015407"></a><a name="smn_api_510001_p1559111015407"></a>说明</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="zh-cn_topic_0133216132_row1459113024020"><td class="cellrowborder" valign="top" width="22.772277227722775%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0133216132_p175910054015"><a name="zh-cn_topic_0133216132_p175910054015"></a><a name="zh-cn_topic_0133216132_p175910054015"></a>href</p>
+    <tbody><tr id="smn_api_510001_row1459113024020"><td class="cellrowborder" valign="top" width="22.772277227722775%" headers="mcps1.2.4.1.1 "><p id="smn_api_510001_p175910054015"><a name="smn_api_510001_p175910054015"></a><a name="smn_api_510001_p175910054015"></a>href</p>
     </td>
-    <td class="cellrowborder" valign="top" width="21.782178217821784%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0133216132_p459614402597"><a name="zh-cn_topic_0133216132_p459614402597"></a><a name="zh-cn_topic_0133216132_p459614402597"></a>String</p>
+    <td class="cellrowborder" valign="top" width="21.782178217821784%" headers="mcps1.2.4.1.2 "><p id="smn_api_510001_p459614402597"><a name="smn_api_510001_p459614402597"></a><a name="smn_api_510001_p459614402597"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="55.44554455445545%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0133216132_p2591150144013"><a name="zh-cn_topic_0133216132_p2591150144013"></a><a name="zh-cn_topic_0133216132_p2591150144013"></a>对应快捷链接</p>
+    <td class="cellrowborder" valign="top" width="55.44554455445545%" headers="mcps1.2.4.1.3 "><p id="smn_api_510001_p2591150144013"><a name="smn_api_510001_p2591150144013"></a><a name="smn_api_510001_p2591150144013"></a>对应快捷链接</p>
     </td>
     </tr>
-    <tr id="zh-cn_topic_0133216132_row459130144018"><td class="cellrowborder" valign="top" width="22.772277227722775%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0133216132_p185911807401"><a name="zh-cn_topic_0133216132_p185911807401"></a><a name="zh-cn_topic_0133216132_p185911807401"></a>rel</p>
+    <tr id="smn_api_510001_row459130144018"><td class="cellrowborder" valign="top" width="22.772277227722775%" headers="mcps1.2.4.1.1 "><p id="smn_api_510001_p185911807401"><a name="smn_api_510001_p185911807401"></a><a name="smn_api_510001_p185911807401"></a>rel</p>
     </td>
-    <td class="cellrowborder" valign="top" width="21.782178217821784%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0133216132_p856574025910"><a name="zh-cn_topic_0133216132_p856574025910"></a><a name="zh-cn_topic_0133216132_p856574025910"></a>String</p>
+    <td class="cellrowborder" valign="top" width="21.782178217821784%" headers="mcps1.2.4.1.2 "><p id="smn_api_510001_p856574025910"><a name="smn_api_510001_p856574025910"></a><a name="smn_api_510001_p856574025910"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="55.44554455445545%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0133216132_p959219013405"><a name="zh-cn_topic_0133216132_p959219013405"></a><a name="zh-cn_topic_0133216132_p959219013405"></a>快捷链接标记名称</p>
+    <td class="cellrowborder" valign="top" width="55.44554455445545%" headers="mcps1.2.4.1.3 "><p id="smn_api_510001_p959219013405"><a name="smn_api_510001_p959219013405"></a><a name="smn_api_510001_p959219013405"></a>快捷链接标记名称</p>
     </td>
     </tr>
     </tbody>

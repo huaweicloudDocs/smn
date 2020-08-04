@@ -1,4 +1,4 @@
-# Cmpp发送状态描述表<a name="ZH-CN_TOPIC_0080900095"></a>
+# Cmpp发送状态描述表<a name="smn_api_a2000"></a>
 
 <a name="table56152752104738"></a>
 <table><thead align="left"><tr id="row49150273104738"><th class="cellrowborder" valign="top" width="38.190000000000005%" id="mcps1.1.3.1.1"><p id="p21749211104738"><a name="p21749211104738"></a><a name="p21749211104738"></a>发送状态</p>

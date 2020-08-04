@@ -1,4 +1,4 @@
-# 查询Application的Endpoint属性<a name="ZH-CN_TOPIC_0118712468"></a>
+# 查询Application的Endpoint属性<a name="smn_api_58005"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694310_section19253649"></a>
 

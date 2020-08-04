@@ -1,4 +1,4 @@
-# application消息体格式<a name="ZH-CN_TOPIC_0119034074"></a>
+# application消息体格式<a name="smn_api_61000"></a>
 
 **表 1**  application消息体格式
 

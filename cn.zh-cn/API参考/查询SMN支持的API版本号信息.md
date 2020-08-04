@@ -1,4 +1,4 @@
-# 查询SMN支持的API版本号信息<a name="ZH-CN_TOPIC_0133216132"></a>
+# 查询SMN支持的API版本号信息<a name="smn_api_510001"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694332_section46354700"></a>
 

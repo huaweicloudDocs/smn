@@ -1,4 +1,4 @@
-# 更新Application endpoint<a name="ZH-CN_TOPIC_0118712465"></a>
+# 更新Application endpoint<a name="smn_api_58002"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0118694307_section663215"></a>
 
