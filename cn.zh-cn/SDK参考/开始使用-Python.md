@@ -16,8 +16,11 @@
 import time
 from smnsdkcore.client import SMNClient
 from smnsdkrequests.v20171105.SmsPublish import SmsPublish
+import ssl
 
-def demoSendSms(sms_sign_id, endpoint, message):
+ssl._create_default_https_context = ssl._create_unverified_context
+
+def demoSendSms(client, sms_sign_id, endpoint, message):
     request = SmsPublish()
     request.set_endpoint(endpoint)
     request.set_message(message)
@@ -32,7 +35,7 @@ if __name__ == "__main__":
     phoneNumber = '+8618682****29'
     message = '您的验证码是:1234，请查收'
 
-    status, headers, response_body = demoSendSms(sms_sign_id, phoneNumber, message)
+    status, headers, response_body = demoSendSms(client, sms_sign_id, phoneNumber, message)
     print status, response_body
 ```
 
@@ -47,8 +50,11 @@ if __name__ == "__main__":
 
 from smnsdkcore.client import SMNClient
 from smnsdkrequests.v20171105.CreateTopic import CreateTopic
+import ssl
 
-def demoCreateTopic(topic_name, display_name):
+ssl._create_default_https_context = ssl._create_unverified_context
+
+def demoCreateTopic(client, topic_name, display_name):
     request = CreateTopic()
     request.set_topic_name(topic_name)
     request.set_display_name(display_name)
@@ -57,7 +63,7 @@ def demoCreateTopic(topic_name, display_name):
 if __name__ == "__main__":
     client = SMNClient(username='YourAccountUserName', domain_name='YourAccountDomainName', password='YourAccountPassword', region_id='YourRegionName')
 
-    status, headers, response_body = demoCreateTopic('python-sdk', 'FromCloud')
+    status, headers, response_body = demoCreateTopic(client, 'python-sdk', 'FromCloud')
     print status, response_body
 ```
 
@@ -68,8 +74,11 @@ if __name__ == "__main__":
 
 from smnsdkcore.client import SMNClient
 from smnsdkrequests.v20171105.Subscribe import Subscribe
+import ssl
 
-def demoSubscribe(topic_urn, endpoint, remark):
+ssl._create_default_https_context = ssl._create_unverified_context
+
+def demoSubscribe(client, topic_urn, endpoint, remark):
     request = Subscribe()
     request.set_endpoint(endpoint)
     request.set_remark(remark)
@@ -82,7 +91,7 @@ if __name__ == "__main__":
     test_urn = 'urn:smn:cn-north-1:xxxx:python-sdk'
     endpoint_phone = '+8618682****29'
     endpoint_remark = 'this is pengzl phone'
-    status, headers, response_body = demoSubscribe(test_urn, endpoint_phone, endpoint_remark)
+    status, headers, response_body = demoSubscribe(client, test_urn, endpoint_phone, endpoint_remark)
     print status, response_body
 ```
 
@@ -94,8 +103,11 @@ if __name__ == "__main__":
 from smnsdkcore.client import SMNClient
 from smnsdkrequests.v20171105 import Publish
 from smnsdkrequests.v20171105.Publish import PublishMessage
+import ssl
 
-def demoPublishMessage(topic_urn, message):
+ssl._create_default_https_context = ssl._create_unverified_context
+
+def demoPublishMessage(client, topic_urn, message):
     request = PublishMessage()
     request.set_topic_urn(topic_urn)
     request.set_subject("Subject, only display to email subscription")
@@ -109,7 +121,7 @@ if __name__ == "__main__":
     subscription_urn = 'urn:smn:cn-north-1: xxxx:python-sdk:xxxx'
     message = '您的验证码是:1234，请查收'
 
-    status, headers, response_body = demoPublishMessage(test_urn, message)
+    status, headers, response_body = demoPublishMessage(client, test_urn, message)
     print status, response_body
 ```
 
