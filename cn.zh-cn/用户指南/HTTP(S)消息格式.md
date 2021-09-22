@@ -41,7 +41,7 @@
 
 ## HTTP\(S\)订阅确认消息的格式<a name="section55214102144241"></a>
 
-添加HTTP\(S\)订阅终端以后，SMN会向订阅终端推送一条订阅确认的消息，下面将描述消息的HTTP Content，它是JSON格式的字符串，其中包括subscribe\_url值，订阅确认需要GET请求subscribe\_url地址进行确认，具体JSON 字段说明如[表2](#table52870937144241)所示。
+添加HTTP\(S\)订阅终端以后，SMN会向订阅终端推送一条订阅确认的消息，下面将描述消息的HTTP Content，它是JSON格式的字符串，其中包括subscribe\_url值，订阅确认需要GET请求subscribe\_url地址进行确认，具体JSON字段说明如[表2](#table52870937144241)所示。
 
 **表 2**  HTTP\(S\)订阅确认消息的格式参数说明
 

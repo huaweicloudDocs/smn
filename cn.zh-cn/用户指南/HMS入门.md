@@ -76,13 +76,13 @@ HMS是为开发者提供的消息推送平台，建立了从云端到手机端�
         <tbody><tr id="row2169185513280"><td class="cellrowborder" valign="top" width="28.57%" headers="mcps1.2.3.1.1 "><p id="p171696552285"><a name="p171696552285"></a><a name="p171696552285"></a>APP ID</p>
         </td>
         <td class="cellrowborder" valign="top" width="71.43%" headers="mcps1.2.3.1.2 "><p id="p18169155592815"><a name="p18169155592815"></a><a name="p18169155592815"></a>HMS为APP分配的唯一标识。</p>
-        <p id="p16169955182813"><a name="p16169955182813"></a><a name="p16169955182813"></a>在使用SMN应用推送推送消息时需要用到此参数。</p>
+        <p id="p16169955182813"><a name="p16169955182813"></a><a name="p16169955182813"></a>在使用SMN应用推送消息时需要用到此参数。</p>
         </td>
         </tr>
         <tr id="row2016918552284"><td class="cellrowborder" valign="top" width="28.57%" headers="mcps1.2.3.1.1 "><p id="p31691355122816"><a name="p31691355122816"></a><a name="p31691355122816"></a>APP SECRET</p>
         </td>
         <td class="cellrowborder" valign="top" width="71.43%" headers="mcps1.2.3.1.2 "><p id="p51691955192815"><a name="p51691955192815"></a><a name="p51691955192815"></a>应用秘钥</p>
-        <p id="p16169105512288"><a name="p16169105512288"></a><a name="p16169105512288"></a>在开发PUSH服务端（app provider）和使用SMN应用推送推送消息时需要用到此参数。</p>
+        <p id="p16169105512288"><a name="p16169105512288"></a><a name="p16169105512288"></a>在开发PUSH服务端（app provider）和使用SMN应用推送消息时需要用到此参数。</p>
         </td>
         </tr>
         </tbody>

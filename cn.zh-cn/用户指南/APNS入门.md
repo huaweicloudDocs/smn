@@ -14,7 +14,7 @@ Apple Push Notification Service \(APNS\) 是用于推送iOS消息的服务。本
 
 ## 使用APNS的步骤<a name="section109741514173811"></a>
 
-1.  注册Apple账号，进入苹果开发者中心，申请成为苹果的应用开发会员（Developer Program Membership），申请会员需要缴纳一笔费用。成为会员后，申请iOS推送证书（.p12）。
+1.  注册Apple帐号，进入苹果开发者中心，申请成为苹果的应用开发会员（Developer Program Membership），申请会员需要缴纳一笔费用。成为会员后，申请iOS推送证书（.p12）。
 2.  开发人员在开发iOS应用时，集成iOS推送证书（.p12）。
 3.  获取设备token。
 

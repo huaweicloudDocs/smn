@@ -15,7 +15,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="32.769999999999996%" headers="mcps1.2.4.1.2 "><p id="p56594888155253"><a name="p56594888155253"></a><a name="p56594888155253"></a>UpdateTopic</p>
 </td>
-<td class="cellrowborder" valign="top" width="30.7%" headers="mcps1.2.4.1.3 "><p id="p30182576161234"><a name="p30182576161234"></a><a name="p30182576161234"></a>修改主题的属性，目前仅仅支持修改topic的display_name字段。</p>
+<td class="cellrowborder" valign="top" width="30.7%" headers="mcps1.2.4.1.3 "><p id="p30182576161234"><a name="p30182576161234"></a><a name="p30182576161234"></a>修改主题的属性，目前仅支持修改topic的display_name字段。</p>
 </td>
 </tr>
 <tr id="row52831096155253"><td class="cellrowborder" valign="top" width="36.53%" headers="mcps1.2.4.1.1 "><p id="p253506116713"><a name="p253506116713"></a><a name="p253506116713"></a>SMN:DeleteTopic</p>
@@ -78,7 +78,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="32.769999999999996%" headers="mcps1.2.4.1.2 "><p id="p3144820416559"><a name="p3144820416559"></a><a name="p3144820416559"></a>Unsubscribe</p>
 </td>
-<td class="cellrowborder" valign="top" width="30.7%" headers="mcps1.2.4.1.3 "><p id="p41500538161616"><a name="p41500538161616"></a><a name="p41500538161616"></a>删除一个订阅，订阅需要鉴权才能删除，仅仅订阅者或者这个主题的拥有者可以删除，删除时会对身份进行确认。</p>
+<td class="cellrowborder" valign="top" width="30.7%" headers="mcps1.2.4.1.3 "><p id="p41500538161616"><a name="p41500538161616"></a><a name="p41500538161616"></a>删除一个订阅，订阅需要鉴权才能删除，仅订阅者或者这个主题的拥有者可以删除，删除时会对身份进行确认。</p>
 </td>
 </tr>
 <tr id="row501468261662"><td class="cellrowborder" valign="top" width="36.53%" headers="mcps1.2.4.1.1 "><p id="p2425111816713"><a name="p2425111816713"></a><a name="p2425111816713"></a>SMN:Publish</p>

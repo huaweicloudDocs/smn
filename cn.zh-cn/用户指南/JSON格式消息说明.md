@@ -2,7 +2,7 @@
 
 ## JSON格式体说明<a name="section534667717028"></a>
 
-JSON格式主要用来处理用户想对不同的订阅者类型发送不同的消息，目前支持的协议Default、HTTP、HTTPS、email、FunctionGraph（函数）、Functiongraph（工作流）、应用以及DMS，其中Default是必须的，Email的内容将发给邮件类型的订阅者，其它协议依次如下所示：
+JSON格式主要用来处理用户想对不同的订阅者类型发送不同的消息，目前支持的协议Default、HTTP、HTTPS、email、FunctionGraph（函数）、应用以及DMS，其中Default是必须的，Email的内容将发给邮件类型的订阅者，其它协议依次如下所示：
 
 ```
 {
@@ -19,7 +19,7 @@ JSON格式主要用来处理用户想对不同的订阅者类型发送不同的�
 
 推荐将Default设置为通用的消息内容，对于特殊的订阅者类型再设置相应消息内容。
 
-以下示例展现由于短信内容长度有限制，将短信设置为特殊的消息，其中HTTP、HTTPS、Email、FunctionGraph（函数）、Functiongraph（工作流）、“应用”以及DMS类型的订阅收到"Dear Sir or Madam, this is a default message."的内容，而SMS类型的订阅者收到“This is an SMS message”。
+以下示例展现由于短信内容长度有限制，将短信设置为特殊的消息，其中HTTP、HTTPS、Email、FunctionGraph（函数）、“应用”以及DMS类型的订阅收到"Dear Sir or Madam, this is a default message."的内容，而SMS类型的订阅者收到“This is an SMS message”。
 
 ```
 {

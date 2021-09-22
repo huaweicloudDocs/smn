@@ -31,11 +31,6 @@
 <td class="cellrowborder" valign="top" width="76.14%" headers="mcps1.2.3.1.2 "><p id="p18775185318516"><a name="p18775185318516"></a><a name="p18775185318516"></a>包含消息发布、使用消息结构体方式的消息发布和使用消息模板方式的消息发布接口。</p>
 </td>
 </tr>
-<tr id="row132213492619"><td class="cellrowborder" valign="top" width="23.86%" headers="mcps1.2.3.1.1 "><p id="p1722949363"><a name="p1722949363"></a><a name="p1722949363"></a>短信操作</p>
-</td>
-<td class="cellrowborder" valign="top" width="76.14%" headers="mcps1.2.3.1.2 "><p id="p15221849464"><a name="p15221849464"></a><a name="p15221849464"></a>包含查询短信签名、创建短信模板、发送短信验证码或短信通知等接口。</p>
-</td>
-</tr>
 <tr id="row9878726192911"><td class="cellrowborder" valign="top" width="23.86%" headers="mcps1.2.3.1.1 "><p id="p16101194212247"><a name="p16101194212247"></a><a name="p16101194212247"></a>使用标签管理服务</p>
 </td>
 <td class="cellrowborder" valign="top" width="76.14%" headers="mcps1.2.3.1.2 "><p id="p14101184217244"><a name="p14101184217244"></a><a name="p14101184217244"></a>包含查询资源实例、添加资源标签和查询项目标签等接口。</p>
